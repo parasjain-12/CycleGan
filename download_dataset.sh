@@ -2,7 +2,7 @@ mkdir datasets
 FILE=$1
 
 if [[ $FILE != "cityscapes" && $FILE != "facades"]]; then
-    echo "Available datasets are: apple2orange, summer2winter_yosemite, horse2zebra, monet2photo, cezanne2photo, ukiyoe2photo, vangogh2photo, maps, cityscapes, facades, iphone2dslr_flower, ae_photos"
+    echo "Available datasets are:  summer2winter_yosemite, horse2zebra, monet2photo, cezanne2photo, ukiyoe2photo, vangogh2photo, maps, cityscapes, facades, iphone2dslr_flower, ae_photos"
     exit 1
 fi
 
