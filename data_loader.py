@@ -3,7 +3,7 @@ from glob import glob
 import numpy as np
 
 class DataLoader():
-    def __init__(self, dataset_name, img_res=(128, 128)):
+    def __init__(self, dataset_name, img_res=(32, 32)):
         self.dataset_name = dataset_name
         self.img_res = img_res
 
